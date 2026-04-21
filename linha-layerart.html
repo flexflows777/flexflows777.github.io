@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOSAARTS — Linha LayerArt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="logo" href="index.html#inicio" aria-label="Voltar para o início">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradientLine" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#E8E8E8;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#A0A0A0;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="rotate(45 50 50)">
+                        <rect x="15" y="15" width="70" height="70" fill="none" stroke="url(#logoGradientLine)" stroke-width="3"/>
+                        <rect x="25" y="25" width="50" height="50" fill="none" stroke="url(#logoGradientLine)" stroke-width="2.5"/>
+                        <rect x="35" y="35" width="30" height="30" fill="none" stroke="url(#logoGradientLine)" stroke-width="2"/>
+                        <rect x="42" y="42" width="16" height="16" fill="url(#logoGradientLine)"/>
+                    </g>
+                </svg>
+                <span class="logo-text">MOSAARTS</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Início</a></li>
+                <li class="nav-dropdown">
+                    <a href="index.html#linhas" class="dropdown-toggle">Coleções <span class="dropdown-caret">▾</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="linha-essence.html">Linha Essence</a></li>
+                        <li><a href="linha-layerart.html">Linha LayerArt</a></li>
+                        <li><a href="linha-atelier.html">Linha Atelier</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#como-funciona">Como Funciona</a></li>
+                <li><a href="index.html#depoimentos">Depoimentos</a></li>
+                <li><a href="index.html#criar" class="nav-cta">Criar Meu Quadro</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-background" style="background-image: url('hero-layerart.png'); background-size: cover; background-position: center;">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">Linha LayerArt</span>
+                <span class="hero-title-line hero-title-highlight">Arte em camadas e textura</span>
+            </h1>
+            <p class="hero-subtitle">Peças com profundidade visual e impacto artístico para decorar e emocionar.</p>
+            <div class="hero-actions">
+                <a href="index.html#criar" class="btn btn-primary">Pedir no WhatsApp</a>
+                <a href="index.html#colecao" class="btn btn-secondary">Voltar ao site</a>
+            </div>
+        </div>
+        <div class="hero-scroll"><div class="hero-scroll-line"></div></div>
+    </section>
+
+    <section class="gallery" id="colecao">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Vitrine</span>
+                <h2 class="section-title">Linha LayerArt</h2>
+            </div>
+            
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="layer1.jpg" alt="Mandala Geométrica LayerArt - MOSAARTS" class="gallery-img">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Mandala Geométrica LayerArt</h3>
+                        <p>Peça circular com desenho minucioso, relevo sofisticado e acabamento decorativo de alto impacto.</p>
+                        <span class="category-tag">Arte em camadas</span>
+                        <div class="product-price-row">
+                            <span class="product-price-label">A partir de</span>
+                            <strong class="product-price">R$ 249,90</strong>
+                        </div>
+                        <button class="btn btn-primary btn-cart add-to-cart-btn" type="button" data-product-name="Mandala Geométrica LayerArt" data-product-price="249.90">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="layer2.png" alt="Mandala Floral em Relevo - MOSAARTS" class="gallery-img">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Mandala Floral em Relevo</h3>
+                        <p>Composição delicada com linhas orgânicas, profundidade visual e presença elegante para a decoração.</p>
+                        <span class="category-tag">Detalhe sofisticado</span>
+                        <div class="product-price-row">
+                            <span class="product-price-label">A partir de</span>
+                            <strong class="product-price">R$ 289,90</strong>
+                        </div>
+                        <button class="btn btn-primary btn-cart add-to-cart-btn" type="button" data-product-name="Mandala Floral em Relevo" data-product-price="289.90">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="layer3.png" alt="Hexágono Sagrado LayerArt - MOSAARTS" class="gallery-img">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Hexágono Sagrado LayerArt</h3>
+                        <p>Design geométrico autoral com recortes precisos, estética contemporânea e leitura visual refinada.</p>
+                        <span class="category-tag">Geometria premium</span>
+                        <div class="product-price-row">
+                            <span class="product-price-label">A partir de</span>
+                            <strong class="product-price">R$ 269,90</strong>
+                        </div>
+                        <button class="btn btn-primary btn-cart add-to-cart-btn" type="button" data-product-name="Hexágono Sagrado LayerArt" data-product-price="269.90">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="layer4.png" alt="Composição Modular LayerArt - MOSAARTS" class="gallery-img">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Composição Modular LayerArt</h3>
+                        <p>Conjunto visual em módulos hexagonais para criar parede de destaque com textura, ritmo e exclusividade.</p>
+                        <span class="category-tag">Projeto exclusivo</span>
+                        <div class="product-price-row">
+                            <span class="product-price-label">A partir de</span>
+                            <strong class="product-price">R$ 319,90</strong>
+                        </div>
+                        <button class="btn btn-primary btn-cart add-to-cart-btn" type="button" data-product-name="Composição Modular LayerArt" data-product-price="319.90">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="layer5.png" alt="Mandala Rosé Lumina - MOSAARTS" class="gallery-img">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Mandala Rosé Lumina</h3>
+                        <p>Arte circular com paleta delicada, efeito ornamental e relevo marcante para ambientes com personalidade.</p>
+                        <span class="category-tag">Cor e textura</span>
+                        <div class="product-price-row">
+                            <span class="product-price-label">A partir de</span>
+                            <strong class="product-price">R$ 299,90</strong>
+                        </div>
+                        <button class="btn btn-primary btn-cart add-to-cart-btn" type="button" data-product-name="Mandala Rosé Lumina" data-product-price="299.90">
+                            Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div></div>
+
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Pronto para transformar<br>sua memória em arte?</h2>
+                <p class="cta-subtitle">Envie sua foto e receba uma proposta personalizada.</p>
+                <a href="index.html#criar" class="btn btn-primary btn-large">Começar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="logoGradientFooterLine" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#E8E8E8;stop-opacity:1" />
+                                    <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#A0A0A0;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="rotate(45 50 50)">
+                                <rect x="15" y="15" width="70" height="70" fill="none" stroke="url(#logoGradientFooterLine)" stroke-width="3"/>
+                                <rect x="25" y="25" width="50" height="50" fill="none" stroke="url(#logoGradientFooterLine)" stroke-width="2.5"/>
+                                <rect x="35" y="35" width="30" height="30" fill="none" stroke="url(#logoGradientFooterLine)" stroke-width="2"/>
+                                <rect x="42" y="42" width="16" height="16" fill="url(#logoGradientFooterLine)"/>
+                            </g>
+                        </svg>
+                        <span class="logo-text">MOSAARTS</span>
+                    </div>
+                    <p class="footer-tagline">Transformando memórias em arte desde 2023</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="index.html#inicio">Início</a></li>
+                            <li><a href="index.html#linhas">Coleções</a></li>
+                            <li><a href="index.html#como-funciona">Como Funciona</a></li>
+                            <li><a href="index.html#depoimentos">Depoimentos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="tel:+5561999999999">+55 61 99999-9999</a></li>
+                            <li><a href="index.html#criar">Orçar pelo WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2ZM16.5 8H14.5C13.673 8 13 8.673 13 9.5V11H16.5L16 14H13V22H10V14H7.5V11H10V9.5C10 7.019 11.519 5.5 14 5.5H16.5V8Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© MOSAARTS 2026. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
